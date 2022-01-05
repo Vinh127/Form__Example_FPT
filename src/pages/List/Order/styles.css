@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+tbody > tr {
+  height: 54px;
+}
+
+tbody > tr > td {
+  text-align: center;
+}
+
+.orderitem__button {
+  padding: 10px;
+  outline: none;
+  color: white;
+  border: 1px solid #dc3545;
+  background-color: #dc3545;
+  height: 35px;
+  cursor: pointer;
+}
+
+.orderitem__price {
+  position: relative;
+}
+
+.orderitem__price::after {
+  position: absolute;
+  content: "X";
+  font-size: 15px;
+  top: 15px;
+  left: 120px;
+}
+
+.orderitem__price > input {
+  padding: 5px 10px;
+  border: 1px solid #bfbfbf;
+  margin-left: 45px;
+  outline: none;
+  min-width: 100px;
+  height: 25px;
+  text-align: center;
+}
+tfoot > tr {
+    display: flex;
+    justify-content: flex-end;
+}

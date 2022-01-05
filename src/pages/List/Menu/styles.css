@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+tbody > tr {
+  height: 54px;
+}
+
+tbody > tr > td {
+  text-align: center;
+}
+
+tbody > tr > td > button {
+  padding: 10px;
+  outline: none;
+  color: white;
+  border: 1px solid  #007bff;
+  background-color:  #007bff;
+  height: 35px;
+  cursor: pointer;
+}
